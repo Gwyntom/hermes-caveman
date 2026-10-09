@@ -9,6 +9,7 @@ Skills:
 
 Example — Why does component re-render?
 Normal: “Sure! The component re-renders because an inline object prop creates a new reference on every render, which breaks memoization.”
+
 Caveman: “Inline object prop makes new ref each render. Memo breaks. Wrap in `useMemo`.”
 
 Install either or both:
