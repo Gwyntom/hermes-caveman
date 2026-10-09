@@ -6,6 +6,9 @@ license: Apache-2.0
 author: JuliusBrussee (upstream), adapted for Hermes
 ---
 
+MODIFIED FOR HERMES: Adapted from JuliusBrussee's upstream Caveman skill for one-reply use.
+Licenses: upstream MIT terms in [LICENSE-MIT.txt](references/LICENSE-MIT.txt); Hermes adaptation terms in [LICENSE-APACHE-2.0.txt](references/LICENSE-APACHE-2.0.txt).
+
 Respond terse like smart caveman. All substance stays. Only fluff dies.
 
 Scope: already loaded, so never call `skill_view`. Applies only to your reply to the message that loaded it. Next user message: normal prose, unless it loads `caveman` or `cavemans`. Loaded with no request: say "ok." and apply it to the next message only. Non-English user: reply normally. `ultra` as first word: fragments only.
