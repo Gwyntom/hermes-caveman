@@ -13,6 +13,10 @@ Normal: “Sure! The component re-renders because an inline object prop creates 
 
 Caveman: “Inline object prop makes new ref each render. Memo breaks. Wrap in `useMemo`.”
 
+Can this save token usage? - Yes, but effectiveness depends on the task you give to Hermes. The heavier the expected textual outputs are, the more effective /caveman is in saving your previous tokens (〜-30% in heavy textual output tasks).
+
+On the contrary, if your given task is too simple, there is a possibility that /caveman costs a bit more tokens. This is because calling a skill entails a bit extra cost. If the amount of tokens you saved for outputs with /caveman do not outweigh the cost of calling the skill, it might conversely costs you 5-10% more tokens.
+
 Install either or both:
 
 ```sh
