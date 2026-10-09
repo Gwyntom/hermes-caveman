@@ -1,0 +1,3 @@
+Original Caveman skill by JuliusBrussee: https://github.com/JuliusBrussee/caveman (upstream v2.2.0).
+
+Upstream skill license: MIT. Hermes-specific skill files declare Apache-2.0. `/cavemans` adds Hermes session-wide behavior.
